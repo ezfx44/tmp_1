@@ -5,12 +5,11 @@
 
 int main()
 {
-	setlocale(LC_ALL, "RUS");
 	char nm1[20], nm2[20], buff1[256], buff2[256];
 	int line = 1;
-	std::cout << "ֲגוהטעו טלÿ פאיכא 1: ";
+	std::cout << "Enter the name of 1-st file: ";
 	std::cin >> nm1;
-	std::cout << "\nֲגוהטעו טלÿ פאיכא 2: ";
+	std::cout << "\nEnter the name of 2-nd file: ";
 	std::cin >> nm2;
 	std::ifstream f1, f2;
 	f1.open(nm1);
