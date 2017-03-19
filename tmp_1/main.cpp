@@ -23,8 +23,8 @@ int main()
 		f2.getline(buff2, 256);
 		if (strcmp(buff1, buff2))
 		{
-			fout << nm1 << "\tСтрока №" << line << ":\t" << buff1 << std::endl;
-			fout << nm2 << "\tСтрока №" << line << ":\t" << buff2 << std::endl;
+			fout << nm1 << " " << line << " " << buff1 << std::endl;
+			fout << nm2 << " " << line << " " << buff2 << std::endl;
 		}
 		line++;
 	}
